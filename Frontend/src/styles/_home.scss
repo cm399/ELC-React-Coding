@@ -1,0 +1,85 @@
+/**
+ * This is the central home page
+ *
+ */
+section#home {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 100px 20px 0;
+  background-image: url("../../public/img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  div.content {
+    max-width: $siteWidth;
+    margin: 0 auto;
+    color: #fff;
+  }
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+  padding: 10px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-height: 100%;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  width: 350px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.card-top-bar {
+  display: flex;
+  gap: 10px;
+}
+.id {
+  background: black;
+  border-radius: 100%;
+  color: white;
+  padding: 10px;
+}
+.price {
+  background: blue;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+.isActive {
+  background: green;
+  border-radius: 100%;
+  color: white;
+  padding: 10px;
+}
+.name {
+  font-weight: bold;
+}
+
+.about {
+  color: #6d6d6d;
+}
+.tag-container {
+  display: flex;
+  gap: 10px;
+  color: #ff0000;
+}
